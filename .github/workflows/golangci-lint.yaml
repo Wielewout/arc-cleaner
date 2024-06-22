@@ -1,0 +1,26 @@
+name: Golangci-lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
+
+permissions:
+  contents: read
+
+jobs:
+  golangci:
+    name: Lint
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4.1.7
+      - name: Setup Go
+        uses: actions/setup-go@v5.0.1
+        with:
+          go-version: stable
+      - name: Run golangci-lint
+        uses: golangci/golangci-lint-action@v6.0.1
+        with:
+          version: v1.59.1

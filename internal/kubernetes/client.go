@@ -22,7 +22,7 @@ type Client struct {
 func NewClient() (*Client, error) {
 	c := &Client{}
 	var scheme *runtime.Scheme
-	var err error = nil
+	var err error
 
 	scheme, err = getScheme()
 	if err != nil {
