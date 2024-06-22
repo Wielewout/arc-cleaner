@@ -54,10 +54,9 @@ test-coverage: ## Run tests with coverage
 test-coverage-report: test-coverage ## Run tests with coverage and open report
 	@go tool cover --html profile.cov
 
-.PHONY: check
-check: ## Check code with static analysis
-	@go fmt $(PKG)
-	@go vet $(PKG)
+.PHONY: lint
+lint: ## Lint code
+	@golangci-lint run $(PKG)
 
 .PHONY: clean
 clean: ## Clean up artifacts
