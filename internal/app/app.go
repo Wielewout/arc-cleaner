@@ -63,7 +63,7 @@ func (app App) reconcile(ctx context.Context) {
 			app.k8sClient,
 			actionsgithubcom.WithDryRun(app.dryRun),
 		)
-		controller.Reconcile(ctx, types.NamespacedName{
+		_ = controller.Reconcile(ctx, types.NamespacedName{
 			Name:      ephemeralRunner.GetName(),
 			Namespace: ephemeralRunner.GetNamespace(),
 		})
