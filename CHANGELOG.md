@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.15](https://github.com/Wielewout/arc-cleaner/compare/v0.1.14...v0.1.15) (2024-10-26)
+
+
+### Bug Fixes
+
+* **deps:** update github.com/actions/actions-runner-controller digest to 96d1bbc ([#22](https://github.com/Wielewout/arc-cleaner/issues/22)) ([a068d35](https://github.com/Wielewout/arc-cleaner/commit/a068d352a8cd983d601ac5861d06839656b023a9))
+* **deps:** update golang.org/x/exp digest to f66d83c ([#24](https://github.com/Wielewout/arc-cleaner/issues/24)) ([3146eac](https://github.com/Wielewout/arc-cleaner/commit/3146eac81aa72488d739b48ba3a381748f59df38))
+* **deps:** update kubernetes packages to v0.31.2 ([#28](https://github.com/Wielewout/arc-cleaner/issues/28)) ([a999468](https://github.com/Wielewout/arc-cleaner/commit/a999468fe8c4b8ea42b766a414a9cc3b823d6edf))
+* **deps:** update module github.com/docker/docker to v27.3.1+incompatible ([#36](https://github.com/Wielewout/arc-cleaner/issues/36)) ([a4355ae](https://github.com/Wielewout/arc-cleaner/commit/a4355ae94575616756bce0e7b72651cbae43a6a2))
+* **deps:** update module github.com/mittwald/go-helm-client to v0.12.14 ([#29](https://github.com/Wielewout/arc-cleaner/issues/29)) ([b66f4b1](https://github.com/Wielewout/arc-cleaner/commit/b66f4b126896403dd7fa17373395e2e5853be289))
+* **deps:** update module sigs.k8s.io/controller-runtime to v0.19.1 ([#30](https://github.com/Wielewout/arc-cleaner/issues/30)) ([4052ad1](https://github.com/Wielewout/arc-cleaner/commit/4052ad1aca5fc3cf3bbdae630a25bc7ae94cc41d))
+* **deps:** update testcontainers-go monorepo to v0.34.0 ([#37](https://github.com/Wielewout/arc-cleaner/issues/37)) ([3379586](https://github.com/Wielewout/arc-cleaner/commit/337958679c544b4e301485a0b6ef817a18807455))
+
 ## [0.1.14](https://github.com/Wielewout/arc-cleaner/compare/v0.1.13...v0.1.14) (2024-09-15)
 
 
